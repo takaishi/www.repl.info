@@ -1,4 +1,4 @@
-baseURL = "http://www.repl.info/"
+baseURL = "https://www.repl.info/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugograyscale"
