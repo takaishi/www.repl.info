@@ -29,6 +29,9 @@ jobs:
     - name: setup CNAME
       run: echo www.repl.info > docs/CNAME
 
+    - name: copy previous event pages
+      run: cp -r ./2019/foo ./docs/foo
+
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
